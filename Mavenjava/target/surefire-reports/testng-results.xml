@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+      <class name="cognizant.Mavenjava.SeleniumTest">
+        <test-method status="PASS" signature="selenium1()[pri:0, instance:cognizant.Mavenjava.SeleniumTest@1877ab81]" name="selenium1" duration-ms="3" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium1 -->
+        <test-method status="PASS" signature="selenium2()[pri:0, instance:cognizant.Mavenjava.SeleniumTest@1877ab81]" name="selenium2" duration-ms="1" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium2 -->
+      </class> <!-- cognizant.Mavenjava.SeleniumTest -->
+      <class name="cognizant.Mavenjava.RestApiTest">
+        <test-method status="PASS" signature="restAPI1()[pri:0, instance:cognizant.Mavenjava.RestApiTest@52feb982]" name="restAPI1" duration-ms="0" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAPI1 -->
+        <test-method status="PASS" signature="restAPI2()[pri:0, instance:cognizant.Mavenjava.RestApiTest@52feb982]" name="restAPI2" duration-ms="0" started-at="2021-12-21T11:49:14 IST" finished-at="2021-12-21T11:49:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAPI2 -->
+      </class> <!-- cognizant.Mavenjava.RestApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

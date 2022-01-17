@@ -1,0 +1,9 @@
+17:29:36.442 [main] ERROR alpha.Demo - button is not displayed
+17:29:36.447 [main] FATAL alpha.Demo - buttton is missings
+17:30:18.725 [main] ERROR beta.Demo1 - Object does not exists
+17:30:18.727 [main] FATAL beta.Demo1 - this is fatal error
+17:31:30.605 [main] DEBUG beta.Demo1 - i am debugging
+17:31:30.606 [main] INFO  beta.Demo1 - i am infowing some text here
+17:31:30.606 [main] ERROR beta.Demo1 - Object does not exists
+17:31:30.607 [main] FATAL beta.Demo1 - this is fatal error
+19:22:14.098 [main] DEBUG alpha.Test - Setting chrome driver property

@@ -1,0 +1,8 @@
+19:22:36.094 [main] INFO  alpha.Test - Window Maximized
+19:22:36.108 [main] DEBUG alpha.Test - Now hitting Amazon server
+19:22:40.171 [main] INFO  alpha.Test - Landed on amazon home page
+19:22:45.190 [main] DEBUG alpha.Test - Getting the frames count
+19:22:45.303 [main] INFO  alpha.Test - Frames count retreived
+19:22:45.371 [main] INFO  alpha.Test - Successfully switched to frame
+19:22:45.372 [main] DEBUG alpha.Test - Identifying Draggable objects
+19:22:45.979 [main] INFO  alpha.Test - Drag and drop success

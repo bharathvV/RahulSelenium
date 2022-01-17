@@ -1,0 +1,17 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.v95.emulation.Emulation;
+
+
+//instead of using 
+public class FeaturesLatest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D://Driver/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		devtools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, null, null, null, null, null, null, null, null, null));
+
+	}
+
+}

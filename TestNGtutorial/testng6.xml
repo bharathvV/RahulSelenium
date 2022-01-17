@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan suite">
+  
+  <listeners>
+    <listener class-name= "test.Listeners" />
+  </listeners>
+  
+  <test thread-count="5" name="personal_loan">
+   <parameter name="URLattest1" value="personal.com" />
+    <classes>
+      <class name="test.Day1">
+        <methods>
+         <include name="demo"/>
+        </methods>
+      </class>
+      <class name="test.day2"/>
+      <class name="test.day3"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Car loan">
+   <parameter name="URLattest2" value="carloan.com" />
+    <classes>
+      <class name="test.day4">
+      <methods>
+        <exclude name="Mobile.*"/>
+      </methods>
+      </class>
+      
+    </classes>
+  </test>
+ 
+</suite> 

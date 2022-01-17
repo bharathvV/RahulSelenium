@@ -1,0 +1,18 @@
+import java.util.Optional;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.v95.emulation.Emulation;
+
+//instead of using Appium we can test with chrome cdp also for mobile responsiveness oka odnt confuse ok 
+public class FeaturesLatest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D://Driver/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		devtools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, , Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty()));
+        
+	}
+
+}

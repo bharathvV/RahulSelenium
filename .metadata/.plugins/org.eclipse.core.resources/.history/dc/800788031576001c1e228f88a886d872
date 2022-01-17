@@ -1,0 +1,9 @@
+
+public class FeaturesLatest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D://Driver/chromedriver.exe");
+
+	}
+
+}

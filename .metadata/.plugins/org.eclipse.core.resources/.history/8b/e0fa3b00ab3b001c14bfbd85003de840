@@ -1,0 +1,16 @@
+package automate;
+
+import org.openqa.selenium.By;
+
+public class Dropdown {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		drive.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT"));
+
+	}
+
+}

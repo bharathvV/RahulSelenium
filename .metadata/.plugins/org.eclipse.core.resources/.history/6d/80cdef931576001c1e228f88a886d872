@@ -1,0 +1,16 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+
+
+//instead of using 
+public class FeaturesLatest {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D://Driver/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devtools = driver.getDevTools();
+		devtools.send();
+
+	}
+
+}
